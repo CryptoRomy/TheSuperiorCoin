@@ -97,7 +97,7 @@ Initial Gitian Setup
 The `gitian-build.py` script will checkout different release tags, so it's best to copy it to the top level directory:
 
 ```bash
-cp superior/contrib/gitian/gitian-build.py .
+cp TheSuperiorCoin/contrib/gitian/gitian-build.py .
 ```
 
 Setup the required environment, you only need to do this once:

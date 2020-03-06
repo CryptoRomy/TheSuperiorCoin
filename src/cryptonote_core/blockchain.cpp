@@ -90,25 +90,25 @@ static const struct {
   time_t time;
 } mainnet_hard_forks[] = {
   // version 1 from the start of the blockchain
-  { 1, 1, 0, 1341378000 },
+  { 1, 1, 0, 1498462020 },
 
   // version 2 starts from block 3657, Premine.
-  { 2, 3657, 0, 1442763710 },
+  { 2, 3657, 0, 1498680901 },
 
   // version 3 starts from block 3700, Premine.
-  { 3, 3700, 0, 1458558528 },
+  { 3, 3700, 0, 1498687500 },
 
   // version 4 starts from block 3750, Premine.
-  { 4, 3750, 0, 1483574400 },
+  { 4, 3750, 0, 1498902731 },
 
   // version 5 starts from block Skipped
   // { 5, 40, 0, 1505865600 },
 
   // version 6 starts from block 101000 -TESTNET-was done from-31744-33906, which is on or around the 24th of Nov, 2017. Fork time finalised on Undifined 95500+5500=101000.
-  { 6, 101000, 0, 1503046577 },
+  { 6, 101000, 0, 1511614009 },
 
   // version 7 starts from block 191850, which is on or around the 10th of April, 2018.
-  { 7, 191850, 0, 1522719232 },
+  { 7, 191850, 0, 1523897520 },
 };
 static const uint64_t mainnet_hard_fork_version_1_till = 3656;
 
