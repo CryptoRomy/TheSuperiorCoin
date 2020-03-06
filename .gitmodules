@@ -12,6 +12,3 @@
 [submodule "external/trezor-common"]
 	path = external/trezor-common
 	url = https://github.com/trezor/trezor-common.git
-[submodule "miniupnp"]
-	path = miniupnp
-	url = https://github.com/monero-project/miniupnp
